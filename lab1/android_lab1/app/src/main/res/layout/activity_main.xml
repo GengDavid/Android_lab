@@ -67,6 +67,7 @@
         />
 
     <EditText
+        android:id="@+id/edt_num"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="18sp"
@@ -131,6 +132,7 @@
         android:layout_marginRight="5dp"
         android:background="@drawable/shape"
         android:layout_marginTop="20dp"
+        android:onClick="sendMessage"
         app:layout_constraintTop_toBottomOf="@id/radio"
         app:layout_constraintEnd_toStartOf="@id/ver_guideline"
         app:layout_constraintHorizontal_chainStyle="spread" />
